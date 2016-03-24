@@ -17,6 +17,10 @@ public class J2cacheCache implements Cache {
         this.setName("SPRING_J2CACHE");
     }
 
+    public J2cacheCache(String name) {
+        this.name = name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
