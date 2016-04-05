@@ -9,4 +9,11 @@ public interface TestService {
     String setName(String name);
 
     void cleanName();
+
+    void setN(String name);
+    void setB(String name);
+    void setC(String name);
+    String getC();
+
+    void clean();
 }
